@@ -10,7 +10,7 @@
 <script>
   import axios from 'axios';
 export default {
-  date() {
+  data() {
     return {
       cats: []
     };

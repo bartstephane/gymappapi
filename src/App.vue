@@ -1,14 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-
       <!-- will host the component corresponding to the route -->
-<router-view></router-view>
+      <router-view></router-view>
 
-<!-- Vue instance has a special property with route params -->
-<div>{{ $route.params.id }}</div>
-
-<!-- create links by lookup of the route -->
+      <!-- create links by lookup of the route -->
 
       <router-link to="/">Home</router-link>
     </div>
