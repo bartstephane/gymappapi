@@ -8,12 +8,12 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
-  }
+    component: () => import(/* webpackChunkName: "home" */ "../views/Home.vue"),
+  },
 ];
 
 const router = new VueRouter({
-  routes
+  routes,
 });
 
 export default router;
