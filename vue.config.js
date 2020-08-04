@@ -1,4 +1,3 @@
 module.exports = {
-  publicPath:
-    process.env.NODE_ENV === "production" ? "/bartstephane-mycv/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "gymappapi/" : "/"
 };
